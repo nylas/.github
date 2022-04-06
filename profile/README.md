@@ -1,22 +1,30 @@
----
-name: New sample request
-about: Request a new sample similar to this one.
----
+<img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/xynkdxbpm0vkft0f1e4e" width="100px"/>
 
-# New sample request
+# Welcome to Nylas!
+Find our open source projects and libraries.
 
-## Describe what you're looking for
+<br />
 
-A clear and concise description of what you're trying to see.
+## Code samples 
+View Nylas code samples at [github.com/nylas-samples](https://github.com/nylas-samples). 
 
-## Describe what this sample is missing
+Find code snippets for authentication, scheduling, connectivity and more.
 
-A clear and concise description of why this sample is insufficient.
+<br />
 
-## Screenshots
+## Nylas SDKs
+We have four official SDKs 
+- [Nylas Ruby SDK](https://github.com/nylas/nylas-ruby)
+- [Nylas Node SDK](https://github.com/nylas/nylas-node)
+- [Nylas Python SDK](https://github.com/nylas/nylas-python)
+- [Nylas Java SDK](https://github.com/nylas/nylas-java)
 
-If applicable, add screenshots to help explain why this sample doesn't suit your needs.
+We also have two community SDKs
+- [Golang SDK for Nylas](https://github.com/Teamwork/nylas-go)
+- [PHP SDK for Nylas](https://github.com/lanlin/nylas-php)
 
-## Additional context
+<br />
 
-Add any other context about the problem here.
+## Open source products and developer tools 
+- [Nylas Components](https://github.com/nylas/components)
+- [Nylas CLI](https://github.com/nylas/homebrew-nylas-cli)
