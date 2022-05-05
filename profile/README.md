@@ -15,7 +15,7 @@ Find code snippets for authentication, scheduling, connectivity and more.
 ## Nylas SDKs
 We have four official SDKs 
 - [Nylas Ruby SDK](https://github.com/nylas/nylas-ruby)
-- [Nylas Node SDK](https://github.com/nylas/nylas-node)
+- [Nylas Node SDK](https://github.com/nylas/nylas-nodejs)
 - [Nylas Python SDK](https://github.com/nylas/nylas-python)
 - [Nylas Java SDK](https://github.com/nylas/nylas-java)
 
