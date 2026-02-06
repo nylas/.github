@@ -1,4 +1,4 @@
-name: Dependency License Policy
+name: Dependency License Check (Public) 
 
 on:
   pull_request: 
