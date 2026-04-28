@@ -78,7 +78,6 @@ nylas mcp install
   (OAuth) and `@nylas/react` (components + hooks)
 - [nylas-samples](https://github.com/nylas-samples) — snippets per SDK
 - [use-cases](https://github.com/nylas/use-cases) — demo apps
-- [components](https://github.com/nylas/components) — Svelte UI components
 
 ## Connect
 
