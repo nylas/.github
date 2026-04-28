@@ -10,7 +10,7 @@ meeting providers in 5 minutes.
 [Log in](https://dashboard-v3.nylas.com/login) ·
 [Docs](https://developer.nylas.com) ·
 [CLI docs](https://cli.nylas.com) ·
-[nylas.com](https://nylas.com) ·
+[Status](https://status.nylas.com) ·
 [Blog](https://nylas.com/blog)
 
 ## Get started
@@ -72,8 +72,17 @@ brew install nylas/nylas-cli/nylas
 nylas mcp install
 ```
 
-## Samples
+## Frontend & samples
 
+- [nylas/javascript](https://github.com/nylas/javascript) — `@nylas/connect`
+  (OAuth) and `@nylas/react` (components + hooks)
 - [nylas-samples](https://github.com/nylas-samples) — snippets per SDK
 - [use-cases](https://github.com/nylas/use-cases) — demo apps
 - [components](https://github.com/nylas/components) — Svelte UI components
+
+## Connect
+
+[Forum](https://forums.nylas.com) ·
+[LinkedIn](https://www.linkedin.com/company/nylas/) ·
+[X](https://twitter.com/nylas) ·
+[YouTube](https://www.youtube.com/c/nylas)
