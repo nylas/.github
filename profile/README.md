@@ -2,8 +2,9 @@
 
 # Nylas
 
-One API for email, calendar, contacts, and meeting notes across Google,
-Microsoft, and IMAP.
+**The infrastructure that powers communications.**
+Integrate with Gmail, Microsoft, IMAP, Zoom, and 250+ email, calendar, and
+meeting providers in 5 minutes.
 
 [Sign up](https://dashboard-v3.nylas.com/register) ·
 [Log in](https://dashboard-v3.nylas.com/login) ·
