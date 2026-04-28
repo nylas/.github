@@ -84,6 +84,8 @@ nylas mcp install
 
 - [nylas/javascript](https://github.com/nylas/javascript) — `@nylas/connect`
   for hosted auth, `@nylas/react` for the Scheduler
+- [`@nylas/web-elements`](https://www.npmjs.com/package/@nylas/web-elements) —
+  framework-agnostic web components that power `@nylas/react`
 - [nylas-samples](https://github.com/nylas-samples) — snippets per SDK
 - [use-cases](https://github.com/nylas/use-cases) — demo apps
 
