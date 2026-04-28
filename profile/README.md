@@ -83,7 +83,7 @@ nylas mcp install
 ## Frontend & samples
 
 - [nylas/javascript](https://github.com/nylas/javascript) — `@nylas/connect`
-  (OAuth) and `@nylas/react` (components + hooks)
+  for hosted auth, `@nylas/react` for the Scheduler
 - [nylas-samples](https://github.com/nylas-samples) — snippets per SDK
 - [use-cases](https://github.com/nylas/use-cases) — demo apps
 
