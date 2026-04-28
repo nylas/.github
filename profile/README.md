@@ -13,6 +13,14 @@ meeting providers in 5 minutes.
 [Status](https://status.nylas.com) ·
 [Blog](https://nylas.com/blog)
 
+## Products
+
+- **Email** — Messages, threads, folders, and attachments across every provider.
+- **Calendar** — Events, availability, and free/busy across Google, Microsoft, and iCloud.
+- **Contacts** — Contact records, groups, and sync across Google and Microsoft.
+- **Scheduler** — Embeddable scheduling UI components and booking APIs.
+- **Notetaker** — Meeting recording and transcription for Google Meet, Zoom, and Microsoft Teams.
+
 ## Get started
 
 Sign up in [the dashboard](https://dashboard-v3.nylas.com/register) to create
