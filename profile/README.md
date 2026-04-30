@@ -31,6 +31,8 @@ brew install nylas/nylas-cli/nylas
 nylas init
 ```
 
+Full walkthrough: [getting started with the CLI](https://cli.nylas.com/guides/getting-started).
+
 ## Try it in Postman
 
 Three collections in the [public workspace](https://www.postman.com/trynylas/nylas-api),
@@ -72,8 +74,8 @@ npx skills add nylas/skills
 /plugin marketplace add nylas/skills   # Claude Code
 ```
 
-The CLI installs an MCP server for Claude Desktop, Claude Code, Cursor,
-Windsurf, or VS Code:
+The CLI installs an [MCP server](https://cli.nylas.com/guides/ai-agent-email-mcp)
+for Claude Desktop, Claude Code, Cursor, Windsurf, or VS Code:
 
 ```bash
 brew install nylas/nylas-cli/nylas
@@ -88,6 +90,8 @@ nylas mcp install
   framework-agnostic web components that power `@nylas/react`
 - [nylas-samples](https://github.com/nylas-samples) — snippets per SDK
 - [use-cases](https://github.com/nylas/use-cases) — demo apps
+- [Nylas CLI](https://cli.nylas.com) — terminal access to email, calendar, and
+  MCP. [100+ guides](https://cli.nylas.com/guides).
 
 ## Connect
 
