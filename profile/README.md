@@ -1,10 +1,9 @@
-<img src="./nylas-logo.png" width="96" alt="Nylas"/>
+<img width="4096" height="1024" alt="Github banner" src="https://github.com/user-attachments/assets/137517ae-244d-47a5-8ca7-b12984971fc4" />
 
 # Nylas
 
-**The infrastructure that powers communications.**
 Integrate with Gmail, Microsoft, IMAP, Zoom, and 250+ email, calendar, and
-meeting providers in 5 minutes.
+meeting providers in 5 minutes — or give your AI agent its own mailbox.
 
 [Sign up](https://dashboard-v3.nylas.com/register) ·
 [Log in](https://dashboard-v3.nylas.com/login) ·
@@ -15,11 +14,28 @@ meeting providers in 5 minutes.
 
 ## Products
 
-- **Email** — Messages, threads, folders, and attachments across every provider.
-- **Calendar** — Events, availability, and free/busy across Google, Microsoft, and iCloud.
-- **Contacts** — Contact records, groups, and sync across Google and Microsoft.
-- **Scheduler** — Embeddable scheduling UI components and booking APIs.
-- **Notetaker** — Meeting recording and transcription for Google Meet, Zoom, and Microsoft Teams.
+- **[Agent Accounts](https://developer.nylas.com/docs/v3/agent-accounts/)** — Nylas-hosted email and calendar mailboxes you create and control entirely through the API. Give an AI agent its own `agent@yourdomain.com` identity that can send, receive, and RSVP. [Quickstart →](https://developer.nylas.com/docs/v3/getting-started/agent-accounts/)
+- **[Email](https://developer.nylas.com/docs/v3/email/)** — Messages, threads, folders, and attachments across every provider. [Quickstart →](https://developer.nylas.com/docs/v3/getting-started/email/)
+- **[Calendar](https://developer.nylas.com/docs/v3/calendar/)** — Events, availability, and free/busy across Google, Microsoft, and iCloud. [Quickstart →](https://developer.nylas.com/docs/v3/getting-started/calendar/)
+- **[Contacts](https://developer.nylas.com/docs/v3/email/contacts/)** — Contact records, groups, and sync across Google and Microsoft. [Quickstart →](https://developer.nylas.com/docs/v3/getting-started/contacts/)
+- **[Scheduler](https://developer.nylas.com/docs/v3/scheduler/)** — Embeddable scheduling UI components and booking APIs. [Quickstart →](https://developer.nylas.com/docs/v3/getting-started/scheduler/)
+- **[Notetaker](https://developer.nylas.com/docs/v3/notetaker/)** — Meeting recording and transcription for Google Meet, Zoom, and Microsoft Teams. [Quickstart →](https://developer.nylas.com/docs/v3/getting-started/notetaker/)
+
+## Agent Accounts
+
+Give an AI agent its own identity. **Agent Accounts** are fully functional,
+Nylas-hosted email and calendar mailboxes you provision on your own domain and
+drive entirely through the API — send, receive, RSVP, and apply inbound rules
+without connecting a human's account. It's the same API you already use for
+connected grants.
+
+- [Quickstart: Agent Accounts](https://developer.nylas.com/docs/v3/getting-started/agent-accounts/) — create your first mailbox in 5 minutes
+- [Agent Accounts overview](https://developer.nylas.com/docs/v3/agent-accounts/) — what they are and when to use them
+- [Provisioning](https://developer.nylas.com/docs/v3/agent-accounts/provisioning/) — create accounts from the CLI, Dashboard, or API
+- [Set up your domain](https://developer.nylas.com/docs/v3/agent-accounts/dns-provider-setup/) — TXT and MX records for Cloudflare, Route 53, GoDaddy, or Namecheap
+- [Supported endpoints](https://developer.nylas.com/docs/v3/agent-accounts/supported-endpoints/) — endpoints and webhook triggers that work with Agent Account grants
+- [Policies, rules & lists](https://developer.nylas.com/docs/v3/agent-accounts/policies-rules-lists/) — limits, spam detection, and inbound filtering
+- [Cookbook recipes](https://developer.nylas.com/docs/cookbook/agent-accounts/) — handle replies, multi-turn conversations, OTP extraction, and more
 
 ## Get started
 
@@ -81,6 +97,16 @@ for Claude Desktop, Claude Code, Cursor, Windsurf, or VS Code:
 brew install nylas/nylas-cli/nylas
 nylas mcp install
 ```
+
+Give an agent email, calendar, and contacts — connect your own accounts, or
+provision a dedicated [Agent Account](https://developer.nylas.com/docs/v3/agent-accounts/):
+
+- [AI Agents Quickstart](https://developer.nylas.com/docs/v3/getting-started/cli-for-agents/) — install the CLI and start from the terminal
+- [Share your email with your agent](https://developer.nylas.com/docs/v3/getting-started/agent-email/) — read, send, and search a connected inbox
+- [Share your calendar with your agent](https://developer.nylas.com/docs/v3/getting-started/agent-calendar/) — manage events and availability
+- [Give your agent its own email](https://developer.nylas.com/docs/v3/getting-started/agent-own-email/) — a dedicated `agent@yourdomain.com` mailbox
+- [Give your agent its own calendar](https://developer.nylas.com/docs/v3/getting-started/agent-own-calendar/) — a dedicated agent calendar
+- [Security for AI agents](https://developer.nylas.com/docs/v3/getting-started/agent-security/) — data isolation, prompt injection, permissions, and audit trails
 
 ## Frontend & samples
 
