@@ -1,0 +1,16 @@
+name: Dependency License Check (Public) 
+
+on:
+  pull_request: 
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block copyleft licenses
+        uses: actions/dependency-review-action@v4
+        with:
+          deny-licenses: GPL-1.0-only, GPL-1.0-or-later, GPL-2.0-only, GPL-2.0-or-later, GPL-3.0-only, GPL-3.0-or-later, LGPL-2.0-only, LGPL-2.0-or-later, LGPL-2.1-only, LGPL-2.1-or-later, LGPL-3.0-only, LGPL-3.0-or-later, MPL-1.1, MPL-2.0, ODC-By-1.0
